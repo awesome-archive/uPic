@@ -1,84 +1,161 @@
 /* 
-  Localizable.strings
-  uPic
+ Localizable.strings
+ uPic
+ 
+ Created by Svend Jin on 2019/6/8.
+ Copyright © 2019 Svend Jin. All rights reserved.
+ */
 
-  Created by Svend Jin on 2019/6/8.
-  Copyright © 2019 Svend Jin. All rights reserved.
-*/
 
+"OK" = "OK";
+"Cancel" = "Cancel";
+"Yes" = "Yes";
+"Warning" = "Warning";
+"Continue" = "Continue";
+"Example:" = "Example:";
+"Off" = "Off";
+"APP Name" = "APP Name";
 
-"general.ok" = "OK";
-"general.cancel" = "Cancel";
-"general.yes" = "Yes";
-
+/* 成功通知标题 */
+"Successfully" = "Successfully";
 /* 上传成功通知标题 */
-"upload.notification.success.title" = "Uploaded successfully";
-
+"Uploaded successfully" = "Uploaded successfully";
 /* 上传成功通知副标题 */
-"upload.notification.success.subtitle" = "URL has been copied to the clipboard, paste and use it!";
-
+"URL has been copied to the clipboard, paste and use it!" = "URL has been copied to the clipboard, paste and use it!";
+/* 当前上传任务还未完成通知副标题 */
+"The current upload task is not complete" = "The current upload task is not complete";
 /* 上传失败通知标题 */
-"upload.notification.error.title" = "Uploaded fail";
+"Upload failed" = "Upload failed";
+/* 导入图床配置失败标题 */
+"Import failed" = "Import failed";
+/* 导入图床配置失败内容 */
+"The configuration file is invalid, please check!" = "The configuration file is invalid, please check!";
+/* 导入图床配置成功内容 */
+"The configuration has been imported, please check and use!" = "The configuration has been imported, please check and use!";
+/* 导出图床配置失败标题 */
+"Export failed" = "Export failed";
+/* 导出图床配置失败内容 */
+"No exportable hosts!" = "No exportable hosts!";
+/* 导出图床配置失败内容2 */
+"configuration export error!" = "configuration export error!";
+/* 导出图床配置成功内容 */
+"The configuration file is exported successfully, Do not modify the file contents!" = "The configuration file is exported successfully, Do not modify the file contents!";
 
-/* 开始上传标题 */
-"upload.notification.start.title" = "Start upload";
+/* 文件不存在或已被删除 */
+"The file does not exist or has been deleted!" = "The file does not exist or has been deleted!";
+/* 文件格式不支持 */
+"File format not supported!" = "File format not supported!";
+/* 文件大小超过限制 */
+"File is over the size limit! Limit:" = "File is over the size limit! Limit:";
+/* 图床配置存在问题, 请检查 */
+"There is a problem with the map bed configuration, please check!" = "There is a problem with the map bed configuration, please check!";
 
-/* 开始上传副标题 */
-"upload.notification.start.subtitle" = "The picture is being uploaded, please wait!";
+/*匿名上传*/
+"The file will be uploaded anonymously to" = "The file will be uploaded anonymously to";
+"Upload via uPic" = "Upload via uPic";
+"Right click to cancel the current upload task" = "Right click to cancel the current upload task";
 
-/* 复制的文件不存在 */
-"copied-file-does-not-exist" = "The copied file does not exist or has been deleted!";
+"App is already running" = "uPic is already running!";
 
-/* 所复制的文件格式不支持 */
-"copied-file-format-is-not-supported" = "The copied file format is not supported!";
+"Did not get the file URL" = "Did not get the file URL";
 
-/* 清除历史上传成功通知标题 */
-"clear.notification.success.title" = "clear history successfully";
-
-/* 清除历史上传失败通知标题 */
-"clear.notification.error.title" = "clear history fail";
-
-/* 状态栏菜单选择文件 */
-"status-menu.select-file" = "Select File";
-
-/* 状态栏菜单屏幕截图 */
-"status-menu.screenshot" = "Screenshot And Upload";
-
-/* 状态栏菜单上传剪切板中的图片 */
-"status-menu.pasteboard" = "Upload Image From Pasteboard";
-
-/* 状态栏菜单清空历史上传 */
-"status-menu.clear" = "Clear History";
-
+/* 状态栏菜单图床 */
+"Host" = "Host";
 /* 状态栏菜单输出格式 */
-"status-menu.output" = "Output Format";
+"Output format" = "Output format";
+/* 状态栏菜单上传前压缩图片 */
+"Compress images before uploading" = "Compress images before uploading";
 
-/* 状态栏菜单偏好设置 */
-"status-menu.preference" = "Preference";
+"Reset User Preferences?" = "Reset User Preferences?";
+"⚠️ Note that this will reset all user preferences" = "⚠️ Note that this will reset all user preferences";
+"Continuing will lose unsaved data. Do you want to continue?" = "Continuing will lose unsaved data. Do you want to continue?";
+"Import host configuration" = "Import host configuration";
+"⚠️ Please choose import method, merge or overwrite?" = "⚠️ Please choose import method, merge or overwrite?";
+"merge" = "merge";
+"⚠️ overwrite" = "⚠️ overwrite";
 
-/* 状态栏菜单退出 */
-"status-menu.quit" = "Quit";
+/* host -- start */
+"Region" = "Region";
+"Bucket" = "Bucket";
+"Operator" = "Operator";
+"Password" = "Password";
+"Access Key" = "Access Key";
+"Secret Id" = "Secret Id";
+"Secret Key" = "Secret Key";
+"Domain" = "Domain";
+"URL suffix" = "URL suffix";
+"API URL" = "API URL";
+"Method" = "Method";
+"File Field" = "File Field";
+"URL Path" = "URL Path";
+"Bodys" = "Bodys";
+"Headers" = "Headers";
+"Owner" = "Owner";
+"Repo" = "Repo";
+"Branch" = "Branch";
+"Token" = "Token";
+"Username" = "Username";
+"Cookie Mode" = "Cookie Mode";
+"Cookie" = "Cookie";
+"Pic Quality" = "Pic Quality";
+"Other fields" = "Other fields";
+"Header Data" = "Header Data";
+"Body Data" = "Body Data";
+"Client ID" = "Client ID";
+"Save Key" = "Save Key";
+"Use CDN" = "Use jsDeliver CDN to speed up access";
+"Version" = "Version";
 
-/* 菜单栏检查更新按钮标题：检查更新 */
-"status-menu.check-update" = "Check for updates";
+/* host field placeholder */
+"Get API Token" = "Get API Token";
+"Get Client ID" = "Get Client ID";
+"Never created Client ID" = "Not created yet? Go create!";
+"Created Client ID" = "Already created? Go get!";
+"Operator name" = "Operator name";
+"Operator password" = "Operator password";
+"Just the repo name, not the repo URL" = "Just the repo name, not the repo URL";
+"domain:https://xxx.com" = "domain:https://xxx.com";
+"Can be empty, there is a default domain" = "Can be empty, there is a default domain";
+"The path to the URL field in Response JSON" = "The path to the URL field in Response JSON";
+"(optional),When filled, URL = domain + URL path value" = "(optional),When filled, URL = domain + URL path value";
 
-/* 前往下载 */
-"check-update-tip-get-gobutton.title" = "Download";
+"Save Key Tips" = "Supports {year} {month} {day} {hour} {minute} {second} {since_second} {since_millisecond} {random} {filename} {.suffix} and etc. For example, the uploaded file is uPic.jpg, set to \"uPic/{filename}{.suffix}\", it will be saved as: uPic/uPic.jpg.";
+"Suffix Tips" = "The suffix added during the visit does not affect the upload. Can be used as object storage for image processing styles, etc ... For example: !w means get a watermarked image.";
 
-/* 忽略 */
-"check-update-tip-get-ignorebutton.title" = "Ignore";
+/*host type*/
+"host.type.-1" = "Custom";
+"host.type.1" = "SMMS";
+"host.type.2" = "Qiniu KODO";
+"host.type.3" = "Upyun USS";
+"host.type.4" = "Aliyun OSS";
+"host.type.5" = "Tencent Cloud COS";
+"host.type.6" = "GitHub";
+"host.type.7" = "Gitee";
+"host.type.8" = "Weibo";
+"host.type.9" = "Amazon S3";
+"host.type.10" = "Imgur";
+"host.type.11" = "Baidu Cloud BOS";
 
-/* 发现新版本 */
-"check-update-tip-get.message" = "Found new version!";
+/* weibo quality*/
+"weibo.quality.thumbnail" = "thumbnail";
+"weibo.quality.mw690" = "medium size";
+"weibo.quality.large" = "original";
 
-/* 网络异常！ */
-"check-update-tip-network.message" = "Connection Invalid!";
+/* smms version */
+"smms.version.v1" = "Anonymous";
+"smms.version.v2" = "Paid version (registered user)";
 
-/* 没有更新！ */
-"check-update-tip-none.message" = "No updates!";
+"Validate" = "Validate";
 
-/* 检查更新 */
-"check-update-tip.title" = "Check for updates";
+/*eroor message*/
+"Upload failed, please check the configuration!" = "Upload failed, please check the configuration!";
 
-"alert.reset_preferences_title" = "Reset User Preferences?";
-"alert.reset_preferences_description" = "⚠️ Note that this will reset all user preferences";
+/* cli */
+"Path and URL of the file to upload" = "Path and URL of the file to upload (At least one, separated by a space)";
+"Output url format" = "Output url format, support url, html, markdown (md), ubb";
+"Turn off error message output" = "Turn off error message output, and output the original file path after the file upload fails";
+"Print this help message" = "Print this help message";
+
+/* cli error msg */
+"Invalid file path" = "Invalid file path or url";
+"Total paths count" = "Total of {count} file paths and urls";

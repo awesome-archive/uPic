@@ -6,78 +6,156 @@
   Copyright © 2019 Svend Jin. All rights reserved.
 */
 
-"general.ok" = "好";
-"general.cancel" = "取消";
-"general.yes" = "是的";
 
+"OK" = "好";
+"Cancel" = "取消";
+"Yes" = "是的";
+"Warning" = "提醒";
+"Continue" = "继续";
+"Example:" = "示例:";
+"Off" = "关闭";
+"APP Name" = "APP 名称";
+
+/* 成功通知标题 */
+"Successfully" = "成功";
 /* 上传成功通知标题 */
-"upload.notification.success.title" = "上传成功";
-
+"Uploaded successfully" = "上传成功";
 /* 上传成功通知副标题 */
-"upload.notification.success.subtitle" = "URL 已复制到剪切板，快去粘贴使用吧！";
-
+"URL has been copied to the clipboard, paste and use it!" = "URL 已复制到剪切板, 快去粘贴使用吧!";
+/* 当前上传任务还未完成通知副标题 */
+"The current upload task is not complete" = "当前上传任务还未结束!";
 /* 上传失败通知标题 */
-"upload.notification.error.title" = "上传失败";
-
-/* 开始上传标题 */
-"upload.notification.start.title" = "开始上传";
-
-/* 开始上传副标题 */
-"upload.notification.start.subtitle" = "图片正在上传，请稍后！";
-
-/* 清除历史上传成功通知标题 */
-"clear.notification.success.title" = "清除历史上传成功";
-
-/* 清除历史上传失败通知标题 */
-"clear.notification.error.title" = "清除历史上传失败";
+"Upload failed" = "上传失败";
+/* 导入图床配置失败标题 */
+"Import failed" = "导入图床配置失败";
+/* 导入图床配置失败内容 */
+"The configuration file is invalid, please check!" = "配置文件无效, 请检查!";
+/* 导入图床配置成功内容 */
+"The configuration has been imported, please check and use!" = "图床配置已导入, 请检查并使用!";
+/* 导出图床配置失败标题 */
+"Export failed" = "导出图床配置失败";
+/* 导出图床配置失败内容 */
+"No exportable hosts!" = "没有可导出的图床配置!";
+/* 导出图床配置失败内容2 */
+"configuration export error!" = "图床配置导出错误!";
+/* 导出图床配置成功内容 */
+"The configuration file is exported successfully, Do not modify the file contents!" = "配置文件导出成功, 请勿修改文件内容!";
 
 /* 复制的文件不存在 */
-"copied-file-does-not-exist" = "复制的文件不存在或已被删除！";
+"The file does not exist or has been deleted!" = "复制的文件不存在或已被删除!";
+/* 文件格式不支持 */
+"File format not supported!" = "文件格式不支持!";
+/* 文件大小超过限制 */
+"File is over the size limit! Limit:" = "文件大小超过限制!限制:";
+/* 图床配置存在问题, 请检查 */
+"There is a problem with the map bed configuration, please check!" = "图床配置存在问题, 请检查!";
 
-/* 复制的文件格式不支持 */
-"copied-file-format-is-not-supported" = "复制的文件格式不支持！";
+"App is already running" = "uPic 已经在运行!";
 
-/* 状态栏菜单选择文件 */
-"status-menu.select-file" = "选择文件";
+/*匿名上传*/
+"The file will be uploaded anonymously to" = "文件将匿名上传至";
+"Upload via uPic" = "使用 uPic 上传";
+"Right click to cancel the current upload task" = "右击取消当前上传任务";
 
-/* 状态栏菜单屏幕截图 */
-"status-menu.screenshot" = "截图上传";
+"Did not get the file URL" = "没有获取到文件URL";
 
-/* 状态栏菜单上传剪切板中的图片 */
-"status-menu.pasteboard" = "上传剪切板中的图片";
-
-/* 状态栏菜单清空历史上传 */
-"status-menu.clear" = "清空历史上传";
-
+/* 状态栏菜单图床 */
+"Host" = "图床";
 /* 状态栏菜单输出格式 */
-"status-menu.output" = "输出格式";
+"Output format" = "输出格式";
+/* 状态栏菜单上传前压缩图片 */
+"Compress images before uploading" = "上传前压缩图片";
 
-/* 状态栏菜单偏好设置 */
-"status-menu.preference" = "偏好设置";
+"Reset User Preferences?" = "重置用户偏好设置?";
+"⚠️ Note that this will reset all user preferences" = "⚠️ 注意这将会重置所有用户偏好设置";
+"Continuing will lose unsaved data. Do you want to continue?" = "继续会丢失未保存数据, 是否继续?";
+"Import host configuration" = "导入图床配置";
+"⚠️ Please choose import method, merge or overwrite?" = "⚠️ 请选择导入方式, 合并还是覆盖?";
+"merge" = "合并";
+"⚠️ overwrite" = "⚠️ 覆盖";
 
-/* 状态栏菜单退出 */
-"status-menu.quit" = "退出";
+/* host -- start */
+"Region" = "区域";
+"Bucket" = "空间名称";
+"Operator" = "操作员";
+"Password" = "密码";
+"Access Key" = "Access Key";
+"Secret Id" = "Secret Id";
+"Secret Key" = "Secret Key";
+"Domain" = "域名";
+"URL suffix" = "网址后缀";
+"API URL" = "API 地址";
+"Method" = "请求方式";
+"File Field" = "文件字段名";
+"URL Path" = "URL 路径";
+"Bodys" = "Bodys";
+"Headers" = "请求头";
+"Owner" = "用户名";
+"Repo" = "仓库名";
+"Branch" = "分支";
+"Token" = "Token";
+"Username" = "用户名";
+"Cookie Mode" = "Cookie 模式";
+"Cookie" = "Cookie";
+"Pic Quality" = "图片质量";
+"Other fields" = "其他字段";
+"Header Data" = "Headers 数据";
+"Body Data" = "Body 数据";
+"Client ID" = "Client ID";
+"Save Key" = "保存路径";
+"Use CDN" = "使用 jsDeliver CDN 加速访问";
+"Version" = "版本";
 
-/* 菜单栏检查更新按钮标题：检查更新 */
-"status-menu.check-update" = "检查更新";
+/* host field placeholder */
+"Get API Token" = "获取 API Token";
+"Get Client ID" = "获取 Client ID";
+"Never created Client ID" = "没有创建过？去创建！";
+"Created Client ID" = "已创建？去获取！";
+"Operator name" = "操作员名称";
+"Operator password" = "操作员密码";
+"Just the repo name, not the repo URL" = "只需要仓库名称, 而不是仓库连接";
+"domain:https://xxx.com" = "访问域名:https://xxx.com";
+"Can be empty, there is a default domain" = "可为空, 有默认域名";
+"The path to the URL field in Response JSON" = "返回 JSON 中的 URL 字段的路径";
+"(optional),When filled, URL = domain + URL path value" = "(可选), 当填写时, URL = 前缀 + URL 路径值";
 
-/* 前往下载 */
-"check-update-tip-get-gobutton.title" = "前往下载";
+"Save Key Tips" = "支持 {year} {month} {day} {hour} {minute} {second} {since_second} {since_millisecond} {random} {filename} {.suffix} 等变量。比如: 上传的图片为 uPic.jpg, 设定为 “uPic/{filename}{.suffix}”, 则会保存到 “uPic/uPic.jpg”。";
+"Suffix Tips" = "访问时追加的后缀, 不影响上传。可用作对象储存的图片处理样式等等...例如: !w 代表获取加水印版的图片。";
 
-/* 忽略 */
-"check-update-tip-get-ignorebutton.title" = "忽略";
+/*host type*/
+"host.type.-1" = "自定义";
+"host.type.1" = "SMMS";
+"host.type.2" = "七牛云 KODO";
+"host.type.3" = "又拍云 USS";
+"host.type.4" = "阿里云 OSS";
+"host.type.5" = "腾讯云 COS";
+"host.type.6" = "GitHub";
+"host.type.7" = "码云 Gitee";
+"host.type.8" = "微博";
+"host.type.9" = "Amazon S3";
+"host.type.10" = "Imgur";
+"host.type.11" = "百度云 BOS";
 
-/* 发现新版本 */
-"check-update-tip-get.message" = "发现新版本";
+/* weibo quality*/
+"weibo.quality.thumbnail" = "缩略图";
+"weibo.quality.mw690" = "中等大小";
+"weibo.quality.large" = "原图";
 
-/* 网络异常！ */
-"check-update-tip-network.message" = "网络异常！";
+/* smms version */
+"smms.version.v1" = "匿名版";
+"smms.version.v2" = "付费版(注册用户)";
 
-/* 没有更新！ */
-"check-update-tip-none.message" = "没有更新！";
+"Validate" = "验证";
 
-/* 检查更新 */
-"check-update-tip.title" = "检查更新";
+/*eroor message*/
+"Upload failed, please check the configuration!" = "上传失败, 请检查配置!";
 
-"alert.reset_preferences_title" = "重置用户偏好设置?";
-"alert.reset_preferences_description" = "⚠️ 注意这将会重置所有用户偏好设置";
+/* cli */
+"Path and URL of the file to upload" = "待上传的文件路径和URL (最少一个, 以空格分隔)";
+"Output url format" = "输出的url格式, 支持 url、html、markdown(md)、ubb";
+"Turn off error message output" = "关闭错误信息输出, 并且在文件上传失败后输出原文件路径";
+"Print this help message" = "打印帮助信息";
+
+/* cli error msg */
+"Invalid file path" = "无效的文件路径或链接";
+"Total paths count" = "共 {count} 个文件路径和链接";

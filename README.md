@@ -1,50 +1,109 @@
-## uPic
+<div align="right"><strong><a href="./README-cn.md">🇨🇳中文</a></strong>  | <strong>🇬🇧English</strong></div>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gee1k/oss/master/screenshot/uPic/logo.png" alt="uPic">
+  <br>
+  <br>
+  <p>
+    Picture and file upload tool for macOS. - A native, powerful, beautiful and simple  
+  </p>
 
-> 简洁的 Mac 图床客户端 uPic
+  <p>
 
+  [![Travis Build Status](https://img.shields.io/travis/gee1k/uPic.svg?style=flat-square&logo=Travis)](https://travis-ci.org/gee1k/uPic) [![GitHub release](https://img.shields.io/github/release/gee1k/uPic?label=version&style=flat-square&logo=GitHub)](https://github.com/gee1k/uPic/releases/latest) [![Downloads](https://img.shields.io/github/downloads/gee1k/uPic/total.svg?style=flat-square)](https://github.com/gee1k/uPic/releases) [![MIT](https://img.shields.io/github/license/gee1k/uPic?style=flat-square)](https://github.com/gee1k/uPic/blob/master/LICENSE)
 
-![pic](https://i.loli.net/2019/06/09/5cfc720f0f7c339579.png)
+[![Donate on PayPal](https://img.shields.io/badge/support-PayPal-blue?style=flat-square&logo=PayPal)](https://paypal.me/geee1k) [![Chat on Telegram](https://img.shields.io/badge/chat-Telegram-blueviolet?style=flat-square&logo=Telegram)](https://t.me/upic_host) [![Follow My Twitter](https://img.shields.io/badge/follow-Tweet-blue?style=flat-square&logo=Twitter)](https://twitter.com/geee1k) [![Follow My Twitter](https://img.shields.io/badge/follow-Weibo-red?style=flat-square&logo=sina-weibo)](https://weibo.com/6436660358)
 
-### Features
+  </p>
+</div>
 
-* [x] 支持 URL、HTML Img、Markdown 输出格式
-* [x] 支持上传剪切板中复制的图片
-* [x] 支持拖拽图片到应用图标直接上传
-* [x] 支持截图上传、微信、QQ等第三方截图的也可以
-* [x] 支持检查更新
+-----
 
-### 支持图床
-> 现只支持 sm.ms，未来支持
+**👬Chat: _[Telegram](https://t.me/upic_host), [Twitter](https://twitter.com/geee1k), [Weibo](https://weibo.com/6436660358), [Wechat Group](https://raw.githubusercontent.com/gee1k/oss/master/personal/geee1k.JPG)_**
 
-* [ ] 七牛云
-* [ ] 又拍云
-* [ ] 阿里云
-* [ ] 腾讯云
+**☕️Donate: _[Paypal](https://paypal.me/geee1k), [Alipay](https://raw.githubusercontent.com/gee1k/oss/master/qrcode/alipay.JPG), [WechatPay](https://raw.githubusercontent.com/gee1k/oss/master/qrcode/wechat_pay.JPG)_**
 
-### Preview
+## 📑 Introduction
 
-* 选择文件上传
+> **uPic(upload Picture) is a image(file) hosting client for Mac.** 
 
-  ![select](http://s2.svend.cc/projects/uPic/selectUpload.gif)
+**💡 Tips：** They can automatic uploading local file and screenshot, meanwhile the menu bar shows the uploading progress constantly. File's link will automatically copied to the clipboard when finish upload, make you insert pictures quickly when you are blogging or chatting. Link’s format can be a normal URL, HTML or Markdown, it's totally up to you.
 
-* 复制图片上传
+**🔋 Support image hosting：**[smms](https://sm.ms/), [UPYUN USS](https://www.upyun.com/products/file-storage), [qiniu KODO](https://www.qiniu.com/products/kodo), [Aliyun OSS](https://www.aliyun.com/product/oss/), [TencentCloud COS](https://cloud.tencent.com/product/cos), [BaiduCloud BOS](https://cloud.baidu.com/product/bos.html), [Weibo](https://weibo.com/), [Github](https://github.com/settings/tokens), [Gitee](https://gitee.com/profile/personal_access_tokens), [Amazon S3](https://aws.amazon.com/cn/s3/), [Imgur](https://imgur.com/), [custom upload api](https://blog.svend.cc/upic/tutorials/custom), ...
 
-  ![copy](http://s2.svend.cc/projects/uPic/copyUpload.gif)
-
-* 截图上传
-
-  ![截图](http://s2.svend.cc/projects/uPic/screenshotUpload.gif)
-
-* 拖拽上传
-
-  ![drag](http://s2.svend.cc/projects/uPic/dragUpload.gif)
+## 🚀 How to install
 
 
+### 1. Homebrew(Recommend):
+```
+brew cask install upic
+```
+### 2. Download from github
+ Click [release](https://github.com/gee1k/uPic/releases) to download.
+ 
+ **If you have difficulty accessing Github in mainland China, you can download it from [Gitee release](https://gitee.com/gee1k/uPic/releases).**
 
-### Thanks
+### Check Finder Extensions's authority
 
-本人完全是一名 Mac 开发新手，能开发出这个小项目离不开他们的帮助：
+- 1. Run uPic
 
-- [https://www.smslit.top/](https://www.smslit.top/)
+- 2. Open `System preferences` - `Extensions` - `Finder Extensions` make sure that `uPicFinderExtension` is be selected
 
-- [https://www.cnswift.org/](https://www.cnswift.org/)
+  <center>
+    <img src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/finder-extension.png" height="300">
+  </center>
+
+
+
+## 🕹 How to use it
+
+| Upload method | Description | Preview |
+| ------------- | ----------- | ------- |
+| **🖥 Select files** |  Select the file to upload from `Finder`.  `Can set global shortcuts`  | ![](https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/selectFile.gif) |
+| **⌨️ Copy file upload** | Upload a file that has been copied to the clipboard.  `Can set global shortcuts` | ![](https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/pasteboard.gif) |
+| **📸 Screenshot upload** | Directly pull frame screenshot upload.  `Can set global shortcuts` | ![](https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/screenshot.gif) |
+| **🖱 Drag and drop local file upload** | Drag and drop files to the status bar to upload | ![](https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/dragFile.gif) |
+| **🖱 Drag and drop browser image upload** | Drag image from browser to status bar to upload | ![](https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/dragFromBrowser.gif) |
+| **📂 Finder contextmenu upload** | Right click on file upload | ![](https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/contextmenu.gif) |
+| **⌨️ Command line upload** | Invoke uPic to upload files by executing commands | ![](https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/cli.gif) |
+
+## 🧰 More features
+
+### 1. Global shortcut key
+<img src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/shortcuts.png" height="300">
+
+### 2. Upload history
+<img src="https://cdn.jsdelivr.net/gh/gee1k/oss@master/screenshot/uPic-en/history.png" height="300">
+
+
+## ✨ Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/gee1k/uPic/graphs/contributors"><img src="https://opencollective.com/uPic/contributors.svg?width=890&button=true" /></a>
+
+
+### Other Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://alley.js.org"><img src="https://avatars1.githubusercontent.com/u/19723234?v=4" width="100px;" alt="alley"/><br /><sub><b>alley</b></sub></a><br /><a href="#translation-m01i0ng" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/Jackxun123"><img src="https://avatars2.githubusercontent.com/u/33611532?v=4" width="100px;" alt="Jackxun123"/><br /><sub><b>Jackxun123</b></sub></a><br /><a href="#translation-Jackxun123" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://github.com/kkkkkkyrie"><img src="https://avatars2.githubusercontent.com/u/30786071?v=4" width="100px;" alt="eleven"/><br /><sub><b>eleven</b></sub></a><br /><a href="#translation-kkkkkkyrie" title="Translation">🌍</a></td>
+    <td align="center"><a href="https://immx.io/"><img src="https://avatars1.githubusercontent.com/u/16921591?v=4" width="100px;" alt="zhucebuliaomax"/><br /><sub><b>zhucebuliaomax</b></sub></a><br /><a href="#design-ihatework" title="Design">🎨</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+-----
+
+**uPic** © [Svend](https://github.com/gee1k), Released under the [MIT](./LICENSE) License.<br>
+Authored and maintained by Svend with help from contributors ([list](https://github.com/gee1k/uPic/contributors)).
